@@ -1,0 +1,74 @@
+.subtitle {
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+}
+
+.marketplace-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.marketplace-card h3 {
+  margin: 0;
+}
+
+.owner-badge {
+  background-color: #3498db;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.selected-slot-info {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.selected-slot-info p {
+  margin: 0.5rem 0;
+}
+
+.my-slots-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.slot-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.slot-option h4 {
+  margin: 0 0 0.25rem 0;
+  color: #2c3e50;
+}
+
+.slot-option .event-time {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.slot-option button {
+  white-space: nowrap;
+}
+
+.success-message {
+  background-color: #d5f4e6;
+  color: #27ae60;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
