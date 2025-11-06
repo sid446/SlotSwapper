@@ -1,8 +1,8 @@
 import { Response } from 'express';
 import mongoose from 'mongoose';
-import { AuthRequest } from '../middleware/auth.js';
-import Event, { EventStatus } from '../models/Event.js';
-import SwapRequest, { SwapStatus } from '../models/SwapRequest.js';
+import { AuthRequest } from '../middleware/auth';
+import Event, { EventStatus } from '../models/Event';
+import SwapRequest, { SwapStatus } from '../models/SwapRequest';
 
 export const getSwappableSlots = async (req: AuthRequest, res: Response): Promise<void> => {
   try {

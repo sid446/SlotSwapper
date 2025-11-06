@@ -1,6 +1,6 @@
 import { Response } from 'express';
-import { AuthRequest } from '../middleware/auth.js';
-import Event, { EventStatus } from '../models/Event.js';
+import { AuthRequest } from '../middleware/auth';
+import Event, { EventStatus } from '../models/Event';
 
 export const getMyEvents = async (req: AuthRequest, res: Response): Promise<void> => {
   try {
