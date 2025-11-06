@@ -1,8 +1,8 @@
 import express from 'express';
-import { authenticate } from '../middleware/auth';
-import * as authController from '../controllers/auth.Controller';
-import * as eventController from '../controllers/event.Controller';
-import * as swapController from '../controllers/swap.Controller';
+import { authenticate } from '../middleware/auth.js';
+import * as authController from '../controllers/auth.Controller.js';
+import * as eventController from '../controllers/event.Controller.js';
+import * as swapController from '../controllers/swap.Controller.js';
 
 const router = express.Router();
 
